@@ -1,0 +1,13 @@
+{
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer": "^2.0.0"
+  },
+  "scripts": {
+    "start": "node example.js",
+    "dimension": "node dimension.js",
+    "content": "node content.js",
+    "pdf": "node pdf.js"
+  }
+}
