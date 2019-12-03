@@ -9,7 +9,7 @@ const puppeteer = require('puppeteer');
       deviceScaleFactor: 1
   });
   await page.goto('https://vnexpress.net/');
-  await page.screenshot({path: 'screenshort/vnexpress.png'});
+  await page.screenshot({path: 'screenshort/vnexpress.png', fullPage: true});
 
   await browser.close();
 })();
