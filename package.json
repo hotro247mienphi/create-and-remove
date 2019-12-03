@@ -5,9 +5,12 @@
     "puppeteer": "^2.0.0"
   },
   "scripts": {
-    "start": "node example.js",
-    "dimension": "node dimension.js",
-    "content": "node content.js",
-    "pdf": "node pdf.js"
+    "start": "node src/example.js",
+    "dimension": "node src/dimension.js",
+    "content": "node src/content.js",
+    "search": "node src/search.js",
+    "screenshot": "node src/screenshot.js",
+    "mocha": "node src/mocha.js",
+    "pdf": "node src/pdf.js"
   }
 }
